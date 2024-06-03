@@ -21,10 +21,10 @@ Delete pada Karyawan mengalami bug, jadi akan reset ke ID 1 jika terdapat data y
 Edit tidak mengalami kendala
 Presensi mengalami kendala untuk melakukan fetching threshold untuk Face recognition, seharusnya ketika simpan presensi langsung capture dan analisa kemudian baru bisa save, ternyata terjadi crash TRESHOLDING dan menjadikan freeze. 
 
-3. Pengumpulan Dataset (Done)
+2. Pengumpulan Dataset (Done)
 Pengumpulan dataset menggunakan Teachable Machine untuk mendapatkan framing yang diinginkan sehingga derajat tertentu lebih akurat
 
-4. Face Recognition (Done) 
+3. Face Recognition (Done) 
 Menggunakan ResNet-15 dalam melakukan pelatihan model pada 4 kelas
 Kendala yang dimiliki adalah integrasi ke Aplikasinya tidak bisa, karena build CMake dan dlib nya bermasalah padahal sudah dicoba menggunakan versi alternate dari anaconda dan sudah menggunakan homebrew untuk ARM based Mac.
 
